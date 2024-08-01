@@ -1,0 +1,410 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(./images/Crunchyroll.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Inter", sans-serif;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.613);
+}
+#left>h2>a
+{
+    color: rgb(255, 145, 0);
+    text-decoration: none;
+    padding-left: 70px;
+}
+#button1
+{
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-right: 44px;
+}
+#button2
+{
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.802);
+    background-color: black;
+    color: rgba(255, 255, 255, 0.84);
+    margin-right: 120px;
+}
+
+/* ---------upgrade------------------ */
+#upgrade
+{
+    padding-left: 140px;
+    padding-top: 42px;
+    width: 100%;
+}
+#upgrade>div>h2
+{
+    color: #ffffff;
+    font-size: 2.2rem;
+}
+#try
+{
+    padding: 12px 15px;
+    padding-left: 44px;
+    background-color: #FAB818;
+    color: #141519;
+    border: 2px solid black;
+}
+#i1>i
+{
+   position: absolute;
+   left: 1%;
+   bottom: 30%;
+   z-index: 2;
+   color: #141519;
+   font-size: 22px;   
+}
+#i1
+{
+    position: relative;
+}
+#upgrade>div>p
+{
+    color: #dadada;
+    font-size: 12.5px;
+}
+#i2
+{
+    display: flex;
+    justify-content: flex-start;
+}
+#i2>h3>a
+{
+    color: #F47521;
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 20px;
+}
+#i2>i
+{
+    position: absolute;
+    font-size: 20px;
+    left: 15%;
+    bottom: 34%;
+}
+#i2
+{
+    position: relative;
+}
+#upgrade>div>#i2>i
+{
+    color: orange;
+}
+
+/* -----------------2nd be the first to watch-------------------- */
+#first
+{
+    margin: auto;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+}
+#first>div>h2
+{
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 80px;  
+}
+#first>div>p
+{
+    color: #dadada;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -25px ;
+    margin-bottom: 3px;
+   
+}
+#siximg
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 75px;
+    background-color: black;
+    padding-top: 60px;
+}
+#siximg>div>h3
+{
+    color: white;
+    font-size: 12px;
+}
+#siximg>div>h4
+{
+    color: rgba(0, 255, 255, 0.775);
+    font-size: 12px;
+}
+#first>#siximg
+{
+    gap: 2rem;
+}
+
+/* <!-- ------------------Get More---------------------- --> */
+#more
+{
+    margin-top: -1px;
+    padding-top: 40px;
+    background-color: black;
+    padding-bottom: 8%;
+}
+#more>h2
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color: #ffffff;
+}
+#compare>h3>a
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #F47521;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: -30px;
+}
+#compare>i
+{
+    color: #F47521;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 165px;
+    margin-top: -35px;
+}
+#icon
+{
+    width: 50%;
+    padding-top: 90px;
+    padding-left: 80px;
+}
+#icon>div
+{
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+.fa-clock
+{
+    color: rgb(0, 221, 255);
+    font-size: 4rem;
+}
+.fa-exclamation
+{
+    color: #F47521;
+    font-size: 4rem;
+}
+.fa-plane-up
+{
+    color: #FAB818;
+    font-size: 4rem; 
+}
+.fa-display
+{
+    color: rgb(73, 143, 201);
+    font-size: 4rem;    
+}
+#icon>div>p
+{
+    color: #dadada;
+}
+
+/* <!-- ----------------4th offline Viewing--------------- --> */
+#offline
+{
+    /* margin: 0;
+    padding: 300px; */
+    width: 100%;
+    background-image: url(./images/offline-bg.webp);
+    background-repeat: no-repeat;    
+}
+#view
+{
+    padding-left: 50rem;
+    padding-top: 8rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+#view>h3
+{
+    color: #000000;
+    font-size: 1.8rem;
+    padding-left: 140px;
+}
+#view>p
+{
+    color: #000000;
+    font-size:1.2rem ;
+    margin: 0;
+}
+#view>i
+{
+    color: #000000;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    margin-top: -6%;
+}
+#view2
+{
+    background-image: url(./images/offline_viewing.webp);
+    background-repeat: no-repeat;
+    padding: 268px;
+    margin-top: -21%;
+}
+#view3
+{
+    background-image: url(./images/offline-2.webp);
+    background-repeat: no-repeat;
+    padding: 150px;
+    margin-left: 40%;
+    margin-top: -12%;
+}
+
+/* <!-- --------------5th Anime---------------------- --> */
+#anime
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+   padding-top: 10%;
+   padding-bottom: 10%;
+   
+}
+#a
+{
+    width: 40%;
+    margin-left: -30px;
+    margin-top: -10rem;
+}
+#a>h2
+{
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+}
+#a>p
+{
+    color: #dadada;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#play>i
+{
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 14px -202px 244px 122px;
+}
+#ai1
+{
+    width: 50%;
+}
+#ai2
+{
+    width: 50%;
+}
+#ai2>img
+{
+   margin-top: -130px;
+   margin-left: -60px;
+}
+
+/* -------------6th question------------ */
+#q
+{
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 11px;
+}
+#qe
+{
+   
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom:1rem ;
+}
+#q2>#ele
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+#qe>h2
+{
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+#qe>h3
+{
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+}
+#qe>p
+{
+    color: #ffffff;
+    font-size: 1rem;
+}
+#qe>h3>span>a
+{
+    color: #F47521;
+    text-decoration: none;
+}
+#q2
+{
+    width: 70%;
+    color: #dadada;
+    font-size: 1rem;
+    margin-left: 10px;
+    padding-left: 180px;
+}
+#el>li
+{
+    list-style-type: none;
+}
+#el>li>a
+{
+    text-decoration: none;
+    gap: 2px;
+    color: white;
+}
+#q2>#el
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ---------------mobile version--------------- */
+@media (max-width: 600px)
+{
+    
+}
